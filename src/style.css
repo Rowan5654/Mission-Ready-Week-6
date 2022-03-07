@@ -206,3 +206,28 @@
     font-size: 14px;
     padding: 5px 0;
 }
+
+/* Section 5 */
+
+.footer-social-links-nav-container {
+    width: 76%;
+    margin: auto;
+}
+
+#footer-social-nav-left {
+    float: left;
+    margin: 15px 0;
+
+    font-size: 12px;
+}
+
+#footer-social-nav-right {
+    float: right;
+    margin: 12px 0;
+    padding: 0 20px;
+
+    font-size: 18px;
+    color: #FFFFFF;
+
+    border-left: 1px solid #9a9b9c;
+}

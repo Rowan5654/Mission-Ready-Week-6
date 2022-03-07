@@ -173,6 +173,17 @@ export default function App() {
             </div>
           </div>
         </div>
+        {/*SECTION 5 (social links)*/}
+        <div className="grid-item" id="social-links">
+          <div className="footer-social-links-nav-container">
+            <p className="footer-social-nav-item" id="footer-social-nav-left">&copy; 2021 Turners</p>
+            <p className="footer-social-nav-item" id="footer-social-nav-right">Instagram</p>
+            <p className="footer-social-nav-item" id="footer-social-nav-right">Email Alerts</p>
+            <p className="footer-social-nav-item" id="footer-social-nav-right">Newsletter</p>
+            <p className="footer-social-nav-item" id="footer-social-nav-right">Facebook</p>
+            <p className="footer-social-nav-item" id="footer-social-nav-right">Branch Details</p>
+          </div>
+        </div>
       </div>
     </>
   );
