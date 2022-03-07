@@ -1,0 +1,208 @@
+.main-grid {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Section 1 */
+
+#header-left {
+    text-align: left;
+}
+
+.header-phone-number {
+    font-weight: 600;
+    font-size: 36px;
+    color: #386C9F;
+
+    padding-left: 10px;
+    margin: 60px 0 0;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 64px;
+    color: #0076BE;
+
+    margin: 50px 0;
+}
+
+#header-right {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0076BE;
+}
+
+.header-below-car-item {
+    display: inline;
+}
+
+#header-below-car-icon {
+    padding: 5px 0;
+}
+
+.header-below-car p {
+    padding-right: 25px;
+    padding-left: 5px;
+}
+
+/* Navigation */
+
+#navigation {
+    background-color: #0076BE;
+    color: white;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+
+    display: inline;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+#nav-icon {
+    padding: 5px 0;
+}
+
+#nav-right {
+    float: right;
+}
+
+#active-item {
+    color: #ED4744;
+}
+
+/* Section 3 */
+
+#main-content {
+    background-color: #BBCEE3;
+    color: #386C9F;
+}
+
+.insurance-options-title {
+    font-weight: 600;
+    font-size: 48px;
+
+    margin: 48px 0 20px 0;
+}
+
+.insurance-option-div {
+    background-color: #FFFFFF;
+    border: 2px solid #386C9F;
+
+    width: 95%;
+    margin: 75px auto;
+}
+
+#top-option {
+    margin: 0 auto;
+}
+
+.insurance-option-header {
+    font-weight: 400;
+    font-size: 24px;
+
+    margin: 0;
+}
+
+.insurance-option-description {
+    font-weight: 400;
+    font-size: 14px;
+
+    margin: 0;
+}
+
+.insurance-options-button {
+    font-weight: 600;
+    font-size: 36px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #FFFFFF;
+    color: #386C9F;
+
+    width: 95%;
+    padding: 5px 0
+    
+}
+
+#tina-image-div {
+    text-align: right;
+}
+
+#tina-image {
+    padding-top: 60px;
+    vertical-align: bottom;
+}
+
+.quote-generator-box {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+
+    margin: 25px 0 50px;
+}
+
+.quote-generator-title {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.quote-generator-subtitle {
+    font-size: 16px;
+}
+
+.quote-generator-input {
+    margin: 10px 0;
+}
+
+#full-width-input {
+    border: none;
+    height: 50px;
+    width: 80%;
+}
+
+#half-width-input {
+    border: none;
+    height: 50px;
+    width: 39%;
+    margin: 0 3px;
+}
+
+.quote-generator-button {
+    font-weight: 600;
+    font-size: 36px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #FFFFFF;
+    color: #386C9F;
+
+    width: 80%;
+    padding: 5px 0;
+    margin: 20px 0;
+}
+
+/* Section 4 */
+
+.footer-list-div {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-list-div ul {
+    list-style-type: none;
+}
+
+.footer-list-header {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.footer-list-content {
+    font-size: 14px;
+    padding: 5px 0;
+}
