@@ -1,6 +1,6 @@
 applications:
   - name: Mission-Ready-Week-6
-    path: ./dist
+    path: ./build
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     random-route: true
     memory: 128M
