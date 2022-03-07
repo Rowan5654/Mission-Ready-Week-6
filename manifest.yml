@@ -1,5 +1,5 @@
 applications:
-  - name: Mission-Ready-Week-5
+  - name: Mission-Ready-Week-6
     path: ./dist
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     random-route: true
