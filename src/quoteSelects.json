@@ -1,0 +1,143 @@
+{
+    "arrayName": "Car Make",
+    "values": [{
+        "make": "Acura",
+        "models": ["ILX", "MDX", "NSX", "RDX", "TLX"]
+    },
+    {
+        "make": "Alfa Romeo",
+        "models": ["Giulia", "Stelvio"]
+    },
+    {
+        "make": "Audi",
+        "models": ["A3", "A4", "A4", "allroad", "A5", "A6", "A6 allroad", "A7", "A8", "Q3"]
+    },
+    {
+        "make": "BMW",
+        "models": ["2 Series", "3 Series", "4 Series"]
+    },
+    {
+        "make": "Buick",
+        "models": []
+    },
+    {
+        "make": "Cadilac",
+        "models": []
+    },
+    {
+        "make": "Chevrolet",
+        "models": []
+    },
+    {
+        "make": "Chrysler",
+        "models": []
+    },
+    {
+        "make": "Dodge",
+        "models": []
+    },
+    {
+        "make": "FIAT",
+        "models": []
+    },
+    {
+        "make": "Ford",
+        "models": []
+    },
+    {
+        "make": "GMC",
+        "models": []
+    },
+    {
+        "make": "Genesis",
+        "models": []
+    },
+    {
+        "make": "Honda",
+        "models": []
+    },
+    {
+        "make": "Hyundai",
+        "models": []
+    },
+    {
+        "make": "INFINITI",
+        "models": []
+    },
+    {
+        "make": "Jaguar",
+        "models": []
+    },
+    {
+        "make": "Jeep",
+        "models": []
+    },
+    {
+        "make": "Kia",
+        "models": []
+    },
+    {
+        "make": "Land Rover",
+        "models": []
+    },
+    {
+        "make": "Lexus",
+        "models": []
+    },
+    {
+        "make": "Lincoln",
+        "models": []
+    },
+    {
+        "make": "Lotus",
+        "models": []
+    },
+    {
+        "make": "MINI",
+        "models": []
+    },
+    {
+        "make": "Maserati",
+        "models": []
+    },
+    {
+        "make": "Mazdo",
+        "models": []
+    },
+    {
+        "make": "Mercedes-Benz",
+        "models": []
+    },
+    {
+        "make": "Mitsubishi",
+        "models": []
+    },
+    {
+        "make": "Nissan",
+        "models": []
+    },
+    {
+        "make": "Porsche",
+        "models": []
+    },
+    {
+        "make": "Ram",
+        "models": []
+    },
+    {
+        "make": "Subaru",
+        "models": []
+    },
+    {
+        "make": "Toyota",
+        "models": []
+    },
+    {
+        "make": "Volkswagen",
+        "models": []
+    },
+    {
+        "make": "Volvo",
+        "models": []
+    }]
+}

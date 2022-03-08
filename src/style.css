@@ -51,6 +51,11 @@
     color: white;
 }
 
+.nav-container {
+    width: 1863px;
+    margin: auto;
+}
+
 .nav-item {
     font-weight: 700;
     font-size: 20px;
@@ -92,11 +97,39 @@
     border: 2px solid #386C9F;
 
     width: 95%;
-    margin: 75px auto;
+    margin: 90px auto 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 1;
+    padding-left: 15px;
+    margin: 0;
+
+    font-size: 16px;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-left: 2px solid #386C9F;
+    border-bottom: 2px solid #386C9F;
+    border-right: 2px solid #386C9F;
 }
 
 #top-option {
     margin: 0 auto;
+}
+
+#bottom-option {
+    margin: 90px auto;
 }
 
 .insurance-option-header {
@@ -119,13 +152,18 @@
 
     border: none;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 
     background-color: #FFFFFF;
     color: #386C9F;
 
     width: 95%;
-    padding: 5px 0
-    
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.insurance-options-button:active {
+    box-shadow: none;
 }
 
 #tina-image-div {
@@ -133,57 +171,8 @@
 }
 
 #tina-image {
-    padding-top: 60px;
+    padding-top: 136px;
     vertical-align: bottom;
-}
-
-.quote-generator-box {
-    border: 3px solid #FFFFFF;
-    border-radius: 10px;
-
-    margin: 25px 0 50px;
-}
-
-.quote-generator-title {
-    font-weight: 600;
-    font-size: 48px;
-    margin: 20px 0;
-}
-
-.quote-generator-subtitle {
-    font-size: 16px;
-}
-
-.quote-generator-input {
-    margin: 10px 0;
-}
-
-#full-width-input {
-    border: none;
-    height: 50px;
-    width: 80%;
-}
-
-#half-width-input {
-    border: none;
-    height: 50px;
-    width: 39%;
-    margin: 0 3px;
-}
-
-.quote-generator-button {
-    font-weight: 600;
-    font-size: 36px;
-
-    border: none;
-    border-radius: 10px;
-
-    background-color: #FFFFFF;
-    color: #386C9F;
-
-    width: 80%;
-    padding: 5px 0;
-    margin: 20px 0;
 }
 
 /* Section 4 */
@@ -210,7 +199,7 @@
 /* Section 5 */
 
 .footer-social-links-nav-container {
-    width: 76%;
+    width: 1200px;
     margin: auto;
 }
 

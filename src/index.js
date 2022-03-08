@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import quoteGenerator from './quoteGenerator';
+
 import './style.css';
 import './grid.css';
+
+import './quoteGeneratorStyle.css';
 
 import Logo from './images/Turners Logo.png'
 import HeaderCar from './images/Red Car.png'
@@ -16,28 +20,29 @@ export default function App() {
     <>
       <div className="main-grid">
         {/*SECTION 1 (header)*/}
-        <div className="grid-item" id="header-grid">
-          <div className="header-grid-item" id="header-left">
-            <img src={Logo}/>
-            <p className="header-phone-number">Call 0800 887 637</p>
-          </div>
-          
-          <div className="header-grid-item">
-            <p id="title">Insure your car now!</p>
-          </div>
+        <div className="grid-item" id="header">
+          <div className="header-grid">
+            <div className="header-grid-item" id="header-left">
+              <img src={Logo}/>
+              <p className="header-phone-number">Call 0800 887 637</p>
+            </div>
+            
+            <div className="header-grid-item">
+              <p id="title">Insure your car now!</p>
+            </div>
 
-          <div className="header-grid-item" id="header-right">
-            <div>
-              <img src={HeaderCar} />
-            </div>
-            <div className="header-below-car">
-              <img src={LocationIcon} className="header-below-car-item" />
-              <p className="header-below-car-item" id="find-us">Find Us</p>
-              <img src={ChineseLanguageIcon} className="header-below-car-item"/>
-              <p className="header-below-car-item">Login or Register</p>
+            <div className="header-grid-item" id="header-right">
+              <div>
+                <img src={HeaderCar} />
+              </div>
+              <div className="header-below-car">
+                <img src={LocationIcon} className="header-below-car-item" />
+                <p className="header-below-car-item" id="find-us">Find Us</p>
+                <img src={ChineseLanguageIcon} className="header-below-car-item"/>
+                <p className="header-below-car-item">Login or Register</p>
+              </div>
             </div>
           </div>
-          
         </div>
         {/*SECTION 2 (navigation)*/}
         <div className="grid-item" id="navigation">
@@ -58,21 +63,33 @@ export default function App() {
           <div className="main-content-grid">
             <div className="main-content-grid-item">
               <p className="insurance-options-title">Your Insurance options</p>
-              <div className="insurance-option-div" id="top-option">
+              <div className="insurance-option-div dropdown" id="top-option">
                 <p className="insurance-option-header">Comprehensive Every Day</p>
                 <p className="insurance-option-description">Full cover including glass replacement and Roadside Assist</p>
+                <div className="dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod risus vel ipsum congue, nec molestie ex tristique. Vivamus lacinia porttitor arcu et semper. Sed rhoncus</p>
+                </div>
               </div>
-              <div className="insurance-option-div">
+              <div className="insurance-option-div dropdown">
                 <p className="insurance-option-header">Mechanical Breakdown</p>
                 <p className="insurance-option-description">Full cover including glass replacement and Roadside Assist</p>
+                <div className="dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod risus vel ipsum congue, nec molestie ex tristique. Vivamus lacinia porttitor arcu et semper. Sed rhoncus</p>
+                </div>
               </div>
-              <div className="insurance-option-div">
+              <div className="insurance-option-div dropdown">
                 <p className="insurance-option-header">Third Parth Fire and Theft</p>
                 <p className="insurance-option-description">Full cover including glass replacement and Roadside Assist</p>
+                <div className="dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod risus vel ipsum congue, nec molestie ex tristique. Vivamus lacinia porttitor arcu et semper. Sed rhoncus</p>
+                </div>
               </div>
-              <div className="insurance-option-div">
+              <div className="insurance-option-div dropdown" id="bottom-option">
                 <p className="insurance-option-header">Third Party Property Damage</p>
                 <p className="insurance-option-description">Full cover including glass replacement and Roadside Assist</p>
+                <div className="dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod risus vel ipsum congue, nec molestie ex tristique. Vivamus lacinia porttitor arcu et semper. Sed rhoncus</p>
+                </div>
               </div>
               <button className="insurance-options-button">Click to compare options</button>
             </div>
@@ -80,40 +97,7 @@ export default function App() {
               <img src={Tina} id="tina-image" />
             </div>
             <div className="main-content-grid-item">
-              <div className="quote-generator-box">
-                <p className="quote-generator-title">Get your quote now</p>
-                <p className="quote-generator-subtitle">Please enter the <b>details</b> of the <b>vehicle you want to insure</b></p>
-                
-                <div className="quote-generator-input">
-                  <input id="full-width-input" placeholder='Licence Plate'></input>
-                </div>
-                <div className="quote-generator-input">
-                  <input id="half-width-input" placeholder='Car Make'></input>
-                  <input id="half-width-input" placeholder='Model'></input>
-                </div>
-                <div className="quote-generator-input">
-                  <input id="half-width-input" placeholder='Body Style'></input>
-                  <input id="half-width-input" placeholder='Engine Size'></input>
-                </div>
-                <div className="quote-generator-input">
-                  <input id="full-width-input" placeholder='Address'></input>
-                </div>
-                
-                <p className="quote-generator-subtitle"><b>Does the car have any of the following features?</b></p>
-                <div className="quote-generator-input">
-                  <input id="full-width-input" placeholder='An Immobiliser'></input>
-                </div>
-                <div className="quote-generator-input">
-                  <input id="full-width-input" placeholder='An Immobiliser'></input>
-                </div>
-                
-                <p className="quote-generator-subtitle">Please enter the <b>details</b> of the <b>driver</b> you want to insure</p>
-                <div className="quote-generator-input">
-                  <input id="half-width-input" placeholder='Date of Birth'></input>
-                  <input id="half-width-input" placeholder='Gender'></input>
-                </div>
-                <button className="quote-generator-button">Submit</button>
-              </div>
+              {quoteGenerator()}
             </div>
           </div>
         </div>
