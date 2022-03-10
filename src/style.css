@@ -62,12 +62,21 @@
     float: left;
 
     display: inline;
-    padding: 10px 15px;
-    margin: 5px;
+    padding: 15px 25px;
+    
+    margin: 0;
+
+    background-color: #0076BE;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #004e7e;
 }
 
 #nav-icon {
-    padding: 5px 0;
+    padding: 10px 0;
+    height: 34px;
 }
 
 #nav-right {
@@ -75,7 +84,7 @@
 }
 
 #active-item {
-    color: #ED4744;
+    background-color: #363636;
 }
 
 /* Section 3 */
@@ -160,6 +169,12 @@
     width: 95%;
     padding: 5px 0;
     margin: 5px 0;
+
+    transition: background-color 0.5s;
+}
+
+.insurance-options-button:hover {
+    background-color: #e2e2e2;
 }
 
 .insurance-options-button:active {

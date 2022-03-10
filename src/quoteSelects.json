@@ -1,5 +1,6 @@
 {
-    "arrayName": "Car Make",
+    "bodyStyles": ["Sedan", "Hatchback / Wagon", "Convertible", "SUV", "Mini Van", "Ute"],
+    "engineSizes": ["under 1.0 litre", "1.0 - 2.0 litres", "2.0 to 3.0-litres", "over 3.0 litres"],
     "values": [{
         "make": "Acura",
         "models": ["ILX", "MDX", "NSX", "RDX", "TLX"]
@@ -10,134 +11,34 @@
     },
     {
         "make": "Audi",
-        "models": ["A3", "A4", "A4", "allroad", "A5", "A6", "A6 allroad", "A7", "A8", "Q3"]
+        "models": ["A3", "A4", "A4", "allroad", "A5", "A6"]
     },
     {
         "make": "BMW",
-        "models": ["2 Series", "3 Series", "4 Series"]
+        "models": ["2 Series", "3 Series", "4 Series", "5 Series", "7 Series", "8 Series"]
     },
     {
         "make": "Buick",
-        "models": []
+        "models": ["Enclave", "Encore", "Encore GX", "Envision", "Cascada", "LaCrosse"]
     },
     {
         "make": "Cadilac",
-        "models": []
+        "models": ["CT4", "CT5", "Escalade", "Lyriq", "XTA", "XT5"]
     },
     {
         "make": "Chevrolet",
-        "models": []
+        "models": ["Bolt", "Bolt EUV", "Camaro", "Corvette", "Malibu", "Spark"]
     },
     {
         "make": "Chrysler",
-        "models": []
+        "models": ["300", "Pacifica", "Voyager", "200", "Aspen", "Crossfire"]
     },
     {
         "make": "Dodge",
-        "models": []
+        "models": ["Challenger", "Charger", "Durango", "Avanger", "Caliber", "Dakota"]
     },
     {
         "make": "FIAT",
-        "models": []
-    },
-    {
-        "make": "Ford",
-        "models": []
-    },
-    {
-        "make": "GMC",
-        "models": []
-    },
-    {
-        "make": "Genesis",
-        "models": []
-    },
-    {
-        "make": "Honda",
-        "models": []
-    },
-    {
-        "make": "Hyundai",
-        "models": []
-    },
-    {
-        "make": "INFINITI",
-        "models": []
-    },
-    {
-        "make": "Jaguar",
-        "models": []
-    },
-    {
-        "make": "Jeep",
-        "models": []
-    },
-    {
-        "make": "Kia",
-        "models": []
-    },
-    {
-        "make": "Land Rover",
-        "models": []
-    },
-    {
-        "make": "Lexus",
-        "models": []
-    },
-    {
-        "make": "Lincoln",
-        "models": []
-    },
-    {
-        "make": "Lotus",
-        "models": []
-    },
-    {
-        "make": "MINI",
-        "models": []
-    },
-    {
-        "make": "Maserati",
-        "models": []
-    },
-    {
-        "make": "Mazdo",
-        "models": []
-    },
-    {
-        "make": "Mercedes-Benz",
-        "models": []
-    },
-    {
-        "make": "Mitsubishi",
-        "models": []
-    },
-    {
-        "make": "Nissan",
-        "models": []
-    },
-    {
-        "make": "Porsche",
-        "models": []
-    },
-    {
-        "make": "Ram",
-        "models": []
-    },
-    {
-        "make": "Subaru",
-        "models": []
-    },
-    {
-        "make": "Toyota",
-        "models": []
-    },
-    {
-        "make": "Volkswagen",
-        "models": []
-    },
-    {
-        "make": "Volvo",
-        "models": []
+        "models": ["500X", "124", "500", "500L"]
     }]
 }
