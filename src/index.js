@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import QuoteGenerator from './QuoteGenerator';
+import quoteGenerator from './quoteGenerator';
 
 import './style.css';
 import './grid.css';
@@ -97,7 +97,7 @@ export default function App() {
               <img src={Tina} id="tina-image" />
             </div>
             <div className="main-content-grid-item">
-              { QuoteGenerator() }
+              { quoteGenerator() }
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ function ToggleButtons(topButtons, yesClicked) {
     }
 }
 
-function QuoteGenerator() {
+function quoteGenerator() {
     //Triggered whenever the user changes the "Car Make" option
     function handleChange() {
         //Get's the make and model selector elements
@@ -131,7 +131,7 @@ function QuoteGenerator() {
                     </div>
                 </div>
 
-                <div className="quote-generator-yes-no-dropdown bottom-yes-no" id="modifications">
+                <div className="quote-generator-yes-no yes-no-dropdown bottom-yes-no" id="modifications">
                     <div className="yes-no-text"> 
                         <p className="yes-no-title">Non factory modifications:</p>
                         <p className="yes-no-description">[See list of non insurable modifications below]</p>
@@ -140,20 +140,20 @@ function QuoteGenerator() {
                         <button className="yes-button-inactive" value="inactive" id="bottom-yes-button" onClick={() => ToggleButtons(false, true)}>YES</button>
                         <button className="no-button-inactive" value="inactive" id="bottom-no-button" onClick={() => ToggleButtons(false, false)}>NO</button>
                     </div>
-                    <div className="quote-generator-yes-no-dropdown-content">
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Boost Controller</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Internal Engine Modifications</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Modified Emgine Management Systems</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Aftermarket Fitted Turbocharges</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Carbon Fibre Panels</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Door Modifications</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>External Wastegate</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Fuel Modifications</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Gearbox Upgrade</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Roll Cage</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Fitted Racing Harness</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-text"><b>Specialised Paint, Paint Effects and Interior</b></p>
-                        <p className="quote-generator-yes-no-dropdown-content-bottom-text">If your car has any modifications please select YES. For assistance call <b>0800 887 637</b></p>
+                    <div className="yes-no-dropdown-content">
+                        <p className="yes-no-dropdown-content-text"><b>Boost Controller</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Internal Engine Modifications</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Modified Emgine Management Systems</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Aftermarket Fitted Turbocharges</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Carbon Fibre Panels</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Door Modifications</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>External Wastegate</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Fuel Modifications</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Gearbox Upgrade</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Roll Cage</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Fitted Racing Harness</b></p>
+                        <p className="yes-no-dropdown-content-text"><b>Specialised Paint, Paint Effects and Interior</b></p>
+                        <p className="yes-no-dropdown-content-bottom-text">If your car has any modifications please select YES. For assistance call <b>0800 887 637</b></p>
                     </div>
                 </div>
 
@@ -185,4 +185,4 @@ function QuoteGenerator() {
     );
 }
 
-export default QuoteGenerator;
+export default quoteGenerator;

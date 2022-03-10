@@ -80,19 +80,23 @@
 
 /* Section 2 */
 
-.quote-generator-yes-no-dropdown {
+.yes-no-dropdown {
+    
     position: relative;
     display: inline-block;
 }
 
-.quote-generator-yes-no-dropdown-content {
+.yes-no-dropdown-content {
     display: none;
     position: absolute;
     background-color: #FFFFFF;
     z-index: 1;
+
+    margin-top: 50px;
+    width: 480px;
 }
 
-.quote-generator-yes-no-dropdown-content-text {
+.yes-no-dropdown-content-text {
     padding-left: 10px;
     margin: 0;
 
@@ -100,14 +104,14 @@
     text-align: left;
 }
 
-.quote-generator-yes-no-dropdown-content-bottom-text {
+.yes-no-dropdown-content-bottom-text {
     padding-left: 10px;
 
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 10px;
 }
 
-.quote-generator-yes-no-dropdown:hover .quote-generator-yes-no-dropdown-content {
+.yes-no-dropdown:hover .yes-no-dropdown-content {
     display: block;
 }
 
